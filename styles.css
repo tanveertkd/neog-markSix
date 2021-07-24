@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+    --main-bg-color-yellow: #FBBF24;
+    --main-button-color-blue: #3B82F6;
+}
+
+body {
+    background-color: var(--main-bg-color-yellow);
+    height: 100%;
+}
+
+h2 {
+    display: block;
+    padding: 5rem;
+    margin: auto;
+    text-align: center;
+}
+
+#header-text {
+    display: block;
+    padding: 2rem;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bolder;
+    letter-spacing: 0.15em;
+}
+
+img {
+    display: block;
+    margin: 1.5rem auto;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: auto;
+}
+
+textarea {
+    display: block;
+    width: 40%;
+    min-height: 10vh;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2em;
+}
+
+button {
+    display: block;
+    padding: 0.5rem 2rem;
+    margin: 1.5rem auto;
+    border-radius: 0.5rem 0rem 0.5rem 0rem;
+    border-color: transparent;
+    background-color: var(--main-button-color-blue);
+    font-size: 1rem;
+    font-weight: bold;
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background: rgb(251,191,36);
+    background: linear-gradient(180deg, rgba(251,191,36,1) 0%, rgba(217,119,6,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+#footer-header {
+    font-size: x-large;
+    display: block;
+    margin: 1rem auto;
+}
