@@ -20,7 +20,6 @@ function clickHandler(){
     .then(json => {
         var translatedData = json.contents.translated;
         outputTextArea.innerText = translatedData;
-        console.log(json);
     })
     .catch(errorHandler)
 }

@@ -13,7 +13,6 @@
 
 body {
     background-color: var(--main-bg-color-yellow);
-    height: 100%;
 }
 
 h2 {
@@ -69,15 +68,40 @@ button {
     display: block;
     position: fixed;
     bottom: 0;
-    height: 100px;
+    height: 130px;
     width: 100%;
     text-align: center;
     background: rgb(251,191,36);
     background: linear-gradient(180deg, rgba(251,191,36,1) 0%, rgba(217,119,6,1) 100%, rgba(0,212,255,1) 100%);
+    padding-bottom: 2rem;
 }
 
 #footer-header {
     font-size: x-large;
     display: block;
+    margin: 0.5rem auto;
+}
+
+#footer-socials {
     margin: 1rem auto;
+    padding: auto 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#footer-socials .footer-socials-list li{
+    display: inline;
+    list-style-type: none;
+    margin: auto 0.9rem;
+}
+
+#footer-socials .footer-socials-list li .social-icn{
+    color: black;
+}
+
+#footer-cc-text {
+    display: block;
+    margin: auto;
 }
